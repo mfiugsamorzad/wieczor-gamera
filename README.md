@@ -6,7 +6,7 @@ Repozytorium zawiera kod źródłowy strony docelowej (tzw. *Landing Page*) stwo
 Strona została napisana w czystym HTML i CSS (bez użycia zewnętrznych frameworków). Jej układ opiera się na strukturze *One-Page* z płynnym przewijaniem (Smooth Scroll) do poszczególnych sekcji.
 
 Szata graficzna została dopasowana do tematyki e-sportowej i plakatów promujących wydarzenie:
-* **Tło:** Głęboki, fioletowo-niebieski gradient (`#28003f` - `#2c6772`).
+* **Tło:** Głęboki, fioletowo-czarny gradient (`#28003f` - `#000000`).
 * **Akcenty:** Neonowy róż (`#EE3E8B`) oraz cyjan (`#01AEFF`).
 * **Detale:** Złoto nawiązujące do League of Legends (`#E0B35B`).
 * **Styl kart:** *Glassmorphism* (półprzezroczyste, rozmyte tła sekcji), idealnie wpisujące się w nowoczesny, gamingowy klimat.
