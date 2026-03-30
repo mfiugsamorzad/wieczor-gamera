@@ -129,6 +129,23 @@
             text-align: center; padding: 30px; font-size: 0.85em; 
             color: rgba(255,255,255,0.6); background: rgba(0,0,0,0.5); font-weight: 400; line-height: 1.8; margin-top: 20px;
         }
+
+		/* --- STYLIZACJA PLAKATU NA GÓRZE --- */
+        .hero-poster {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0,0,0,0.3); /* Delikatne tło pod plakat */
+            padding-top: 20px; /* Odstęp od paska nawigacji */
+        }
+
+        .hero-image {
+            max-width: 100%; /* Plakat dostosuje się do szerokości telefonu/ekranu */
+            height: auto;    /* Zachowa odpowiednie proporcje */
+            display: block;
+            margin: 0 auto;
+            max-height: 80vh; /* Na ogromnych monitorach nie zajmie całego ekranu */
+        }
     </style>
 </head>
 <body>
@@ -146,7 +163,11 @@
         Przejdź na główną stronę Samorządu MFI
     </a>
 </nav>
-
+	
+<div class="hero-poster">
+    <img src="plakat-poziom.jpg" alt="Plakat Wieczór Gamera" class="hero-image">
+</div>
+	
 <header>
     <p class="subtitle" style="color: var(--cyan-neon); font-weight: 700; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 3px;">16 Kwietnia 2026 | 17:00</p>
     <h1>Wieczór Gamera</h1>
