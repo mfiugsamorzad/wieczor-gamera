@@ -130,22 +130,26 @@
             color: rgba(255,255,255,0.6); background: rgba(0,0,0,0.5); font-weight: 400; line-height: 1.8; margin-top: 20px;
         }
 
-		/* --- STYLIZACJA PLAKATU NA GÓRZE --- */
+	/* --- STYLIZACJA PLAKATU NA GÓRZE --- */
         .hero-poster {
             width: 100%;
             display: flex;
             justify-content: center;
-            background-color: rgba(0,0,0,0.3); /* Delikatne tło pod plakat */
-            padding-top: 20px; /* Odstęp od paska nawigacji */
+            background-color: rgba(0,0,0,0.3);
+            padding-top: 20px; 
+            padding-bottom: 30px; 
         }
 
         .hero-image {
-            max-width: 100%; /* Plakat dostosuje się do szerokości telefonu/ekranu */
-            height: auto;    /* Zachowa odpowiednie proporcje */
+            max-width: 100%;
+            height: auto;
             display: block;
             margin: 0 auto;
-            max-height: 80vh; /* Na ogromnych monitorach nie zajmie całego ekranu */
+            max-height: 80vh;
+            border-radius: 8px; 
+            box-shadow: 0 0 30px 5px var(--pink-neon); /* Różowa neonowa poświata */
         }
+		
     </style>
 </head>
 <body>
